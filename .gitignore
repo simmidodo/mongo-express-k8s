@@ -1,0 +1,4 @@
+# Ignore local kubeconfig
+.kube/
+*.log
+*.tmp

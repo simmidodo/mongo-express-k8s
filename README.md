@@ -11,7 +11,7 @@ It shows how to:
 
 ---
 
-## 📊 Architecture
+##  Architecture
 
 ### Browser Request Flow
 ![Browser Requests Architecture](./docs/1.png)
@@ -24,7 +24,7 @@ It shows how to:
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 - **Kubernetes** (Deployments, Services, ConfigMap, Secret)
 - **MongoDB** (Database Pod + Internal Service)
 - **Mongo Express** (Admin UI + External Service)
@@ -33,8 +33,8 @@ It shows how to:
 
 ---
 
-## 📂 Repository Layout
----
+##  Repository Layout
+```
 ├── README.md
 ├── k8s/
 │ ├── configmap.yml # ConfigMap with MongoDB URL
@@ -43,4 +43,4 @@ It shows how to:
 │ ├── express-deployment.yml # Mongo Express Deployment + NodePort Service
 │ └── namespace.yml # (Optional) Dedicated namespace
 └── .gitignore
----
+```

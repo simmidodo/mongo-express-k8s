@@ -13,13 +13,8 @@ It shows how to:
 
 ##  Architecture
 
-### Browser Request Flow
 ![Browser Requests Architecture](./docs/1.png)
-
-### Project Architecture
 ![Project Architecture](./docs/2.png)
-
-### Complete Setup
 ![Complete Setup](./docs/3.png)
 
 ---
